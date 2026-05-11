@@ -2,6 +2,7 @@
 
 A Streamlit-based interactive tool for predicting whether a customer should receive a vehicle insurance promotion, using a Bayesian Belief Network built from a real-world dataset of 381,109 health insurance customers.
 
+![Bayesian insurance program](images/screenshot-from-bayesian-program.png)
 
 ---
 
@@ -10,6 +11,8 @@ A Streamlit-based interactive tool for predicting whether a customer should rece
 The program models the **cross-sell prediction problem**: given an existing health insurance customer's profile, should the company send them a vehicle insurance promotion?
 
 It uses **Bayesian probability weights** derived directly from the dataset to estimate the probability that a customer will respond positively to an offer. That probability is then fed into a **Decision Network** that computes the **Expected Utility** of sending or not sending the promotion.
+
+![Bayesian network](images/bayesian-network.png)
 
 ### Core features
 
@@ -25,7 +28,7 @@ It uses **Bayesian probability weights** derived directly from the dataset to es
 ## Project Structure
 
 ```
-bayesian_insurance_ui.py    # Main Streamlit application
+bayesian_insurance.py    # Main Streamlit application
 ```
 
 The entire program is a single self-contained Python file. All probability weights are hardcoded from the dataset — no external data file is needed at runtime.
@@ -56,7 +59,7 @@ pip install graphviz
 ## How to Run
 
 ```bash
-streamlit run bayesian_insurance_ui.py
+streamlit run bayesian_insurance.py
 ```
 
 Streamlit will open a browser tab automatically at `http://localhost:8501`.
