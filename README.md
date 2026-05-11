@@ -2,7 +2,7 @@
 
 A Streamlit-based interactive tool for predicting whether a customer should receive a vehicle insurance promotion, using a Bayesian Belief Network built from a real-world dataset of 381,109 health insurance customers.
 
-<img src="images/screenshot-from-bayesian-program.png" width="500">
+<img src="images/screenshot-from-bayesian-program.png" width="400">
 
 ---
 
