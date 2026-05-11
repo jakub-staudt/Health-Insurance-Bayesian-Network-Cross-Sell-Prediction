@@ -13,6 +13,7 @@ The program models the **cross-sell prediction problem**: given an existing heal
 It uses **Bayesian probability weights** derived directly from the dataset to estimate the probability that a customer will respond positively to an offer. That probability is then fed into a **Decision Network** that computes the **Expected Utility** of sending or not sending the promotion.
 
 ![Bayesian network](images/bayesian-network.png)
+<img src="images/bayesian-network.png" width="500">
 
 ### Core features
 
